@@ -1,0 +1,122 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(90, 92, 106) 0%,
+    rgb(32, 45, 58) 81.3%
+  );
+  margin: -10px;
+  padding: 30px;
+  padding-left: 200px;
+}
+header p {
+  color: gainsboro;
+  font-size: small;
+  padding-left: 140px;
+  margin-bottom: -40px;
+}
+header h1 {
+  color: white;
+  font-size: 50px;
+}
+.main-h1 {
+  background: linear-gradient(to bottom, rgb(255, 153, 102), rgb(255, 94, 98));
+  background-clip: text;
+  color: transparent;
+}
+nav {
+  padding-top: 10px;
+  margin-bottom: -10px;
+}
+header nav a {
+  background: linear-gradient(to top, rgb(97, 182, 17), rgb(190, 224, 148));
+  margin-right: 5px;
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+header nav a.active {
+  background: linear-gradient(to bottom, rgb(255, 153, 102), rgb(255, 94, 98));
+}
+
+.bottom {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(90, 92, 106) 0%,
+    rgb(32, 45, 58) 81.3%
+  );
+  margin: -10px;
+  display: flex;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  padding-left: 195px;
+  padding-right: 195px;
+  color: gainsboro;
+  gap: 50px;
+}
+.bottom a {
+  color: yellowgreen;
+}
+.bottom a:hover {
+  text-decoration: none;
+}
+.bottom .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+.gallery img {
+  height: 60px;
+  width: 60px;
+}
+.bottom p {
+  text-align: justify;
+}
+.about img {
+  height: 60px;
+  width: 60px;
+}
+.text-wrap img {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 3px;
+}
+.text-wrap p {
+  overflow: hidden;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: black;
+  color: gainsboro;
+  display: flex;
+  gap: 450px;
+  padding-left: 195px;
+  margin: -10px;
+  font-size: small;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 190px;
+}
+.link {
+  color: yellowgreen;
+  text-decoration: underline;
+}
+.link:hover {
+  text-decoration: none;
+}
+footer a {
+  text-decoration: none;
+  padding-right: 15px;
+  color: gainsboro;
+}
+footer a.active {
+  color: yellowgreen;
+}
