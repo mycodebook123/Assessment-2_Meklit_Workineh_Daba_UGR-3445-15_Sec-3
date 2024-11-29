@@ -1,0 +1,48 @@
+main {
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-left: 175px;
+  padding-right: 195px;
+  color: dimgrey;
+  line-height: 1.6;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 50px;
+}
+.about-content {
+  text-align: justify;
+  max-width: 63%;
+}
+.about-content h2 {
+  color: green;
+}
+.sidebar {
+  flex: 1;
+}
+.sidebar h2 {
+  color: green;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
